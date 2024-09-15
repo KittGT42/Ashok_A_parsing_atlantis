@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ashok-a-parsing-atlantis"
+version = "0.1.0"
+description = ""
+authors = ["KittGT42 <114111458+KittGT42@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.32.3"
+selenium = "^4.24.0"
+python-dateutil = "^2.9.0.post0"
+playwright = "^1.47.0"
+beautifulsoup4 = "^4.12.3"
+lxml = "^5.3.0"
+undetected-chromedriver = "^3.5.5"
+setuptools = "^74.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
